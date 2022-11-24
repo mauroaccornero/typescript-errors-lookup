@@ -1,0 +1,9 @@
+{
+  "singleQuote": false,
+  "printWidth": 80,
+  "semicolons": true,
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ],
+  "tailwindConfig": "./tailwind.config.js"
+}

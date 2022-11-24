@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "strict": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+  },
+  "exclude": ["node_modules"],
+  "include": ["./scripts/**/*","./src/app/**/*"],
+  "ts-node": {
+    "esm": true
+  }
+}
